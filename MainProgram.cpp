@@ -1,3 +1,32 @@
+// ============================================================
+// Lab W7: C++ OOP Review - Classes, Encapsulation, Strings,
+//         Copy Constructors, Operator Overloading
+// Course: Object-Oriented Programming
+// Duration: 40 minutes
+// ============================================================
+// SINGLE FILE IMPLEMENTATION - No header files allowed
+// ============================================================
+
+#include <iostream>
+#include <string>
+#include <cstring>
+using namespace std;
+
+// ================================
+// CLASS DEFINITIONS
+// ================================
+
+// -----------------------------------------------------------
+// Class: Student
+// Represents a university student with name, ID, and GPA.
+// This class reviews:
+//   - Encapsulation (private data, public interface)
+//   - Constructors (default, parameterized)
+//   - Destructor
+//   - Copy Constructor
+//   - Operator Overloading (<<, ==, <)
+//   - String operations
+// -----------------------------------------------------------
 class Student {
 private:
     string name; 
